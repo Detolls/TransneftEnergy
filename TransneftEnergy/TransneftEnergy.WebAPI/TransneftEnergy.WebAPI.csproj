@@ -16,6 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\TransneftEnergy.Application\TransneftEnergy.Application.csproj" />
     <ProjectReference Include="..\TransneftEnergy.Infrastructure\TransneftEnergy.Infrastructure.csproj" />
   </ItemGroup>
 
