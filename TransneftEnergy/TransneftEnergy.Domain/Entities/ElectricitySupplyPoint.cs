@@ -28,6 +28,6 @@
         /// <summary>
         /// Расчетные приборы учета.
         /// </summary>
-        public virtual ICollection<SettlementMeter>? SettlementMeters { get; set; }
+        public virtual ICollection<SettlementMeter> SettlementMeters { get; } = new List<SettlementMeter>();
     }
 }

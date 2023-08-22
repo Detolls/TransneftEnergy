@@ -19,5 +19,10 @@
         /// Дата проверки.
         /// </summary>
         public DateTime VerificationDate { get; set; }
+
+        /// <summary>
+        /// Точка измерения электроенергии.
+        /// </summary>
+        public virtual ElectricityMeasuringPoint? ElectricityMeasuringPoint { get; set; }
     }
 }

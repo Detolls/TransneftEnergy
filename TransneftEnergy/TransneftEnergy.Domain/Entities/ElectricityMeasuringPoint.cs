@@ -11,6 +11,16 @@
         public required string Name { get; set; }
 
         /// <summary>
+        /// Идентификатор объекта потребления.
+        /// </summary>
+        public int ConsumptionObjectId { get; set; }
+
+        /// <summary>
+        /// Объект потребления.
+        /// </summary>
+        public virtual ConsumptionObject? ConsumptionObject { get; set; }
+
+        /// <summary>
         /// Идентификатор счетчика электроэнергии.
         /// </summary>
         public int ElectricityMeterId { get; set; }

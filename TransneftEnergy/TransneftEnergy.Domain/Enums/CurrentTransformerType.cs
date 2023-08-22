@@ -8,7 +8,7 @@
         /// <summary>
         /// Обмоточный.
         /// </summary>
-        MultiTurn = 1,
+        Winding = 1,
 
         /// <summary>
         /// Тороидальный.

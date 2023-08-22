@@ -23,7 +23,7 @@
         /// <summary>
         /// Расчетный прибор учета.
         /// </summary>
-        public SettlementMeter? SettlementMeter { get; set; }
+        public virtual SettlementMeter? SettlementMeter { get; set; }
 
         /// <summary>
         /// Интервал (с).

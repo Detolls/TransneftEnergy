@@ -8,6 +8,6 @@
         /// <summary>
         /// Дочерние организации.
         /// </summary>
-        public virtual ICollection<ChildOrganization>? ChildOrganizations { get; set; }
+        public virtual ICollection<ChildOrganization> ChildOrganizations { get; } = new List<ChildOrganization>();
     }
 }
