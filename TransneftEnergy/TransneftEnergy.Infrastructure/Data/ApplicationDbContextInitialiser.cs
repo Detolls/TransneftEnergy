@@ -66,12 +66,14 @@ namespace TransneftEnergy.Infrastructure.Data
                     new ElectricityMeter
                     {
                         Number = Guid.NewGuid().ToString(),
-                        Type = Domain.Enums.ElectricityMeterType.Electronic
+                        Type = Domain.Enums.ElectricityMeterType.Electronic,
+                        VerificationDate = DateTime.UtcNow.AddDays(-10)
                     },
                     new ElectricityMeter
                     {
                         Number = Guid.NewGuid().ToString(),
-                        Type = Domain.Enums.ElectricityMeterType.Induction
+                        Type = Domain.Enums.ElectricityMeterType.Induction,
+                        VerificationDate = DateTime.UtcNow.AddDays(10)
                     });
 
                 await _context.SaveChangesAsync();

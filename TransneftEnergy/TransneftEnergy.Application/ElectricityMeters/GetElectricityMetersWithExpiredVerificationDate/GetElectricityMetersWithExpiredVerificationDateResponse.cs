@@ -1,6 +1,4 @@
-﻿using TransneftEnergy.Domain.Enums;
-
-namespace TransneftEnergy.Application.ElectricityMeters.GetElectricityMetersWithExpiredVerificationDate
+﻿namespace TransneftEnergy.Application.ElectricityMeters.GetElectricityMetersWithExpiredVerificationDate
 {
     public sealed record GetElectricityMetersWithExpiredVerificationDateResponse(
         int Id, 

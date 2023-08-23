@@ -2,7 +2,7 @@
 
 namespace TransneftEnergy.Application.ElectricityMeters
 {
-    public sealed class ElectricityMeterMappingProfile : Profile
+    internal sealed class ElectricityMeterMappingProfile : Profile
     {
         public ElectricityMeterMappingProfile() 
         {

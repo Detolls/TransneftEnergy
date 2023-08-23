@@ -1,11 +1,11 @@
 ﻿namespace TransneftEnergy.Application.VoltageTransformers.GetVoltageTransformersWithExpiredVerificationDate
 {
-    public sealed class GetCurrentTransformersWithExpiredVerificationDateHandler : IRequestHandler<GetVoltageTransformersWithExpiredVerificationDateQuery, IReadOnlyList<GetVoltageTransformersWithExpiredVerificationDateResponse>>
+    public sealed class GetVoltageTransformersWithExpiredVerificationDateHandler : IRequestHandler<GetVoltageTransformersWithExpiredVerificationDateQuery, IReadOnlyList<GetVoltageTransformersWithExpiredVerificationDateResponse>>
     {
         private readonly ApplicationDbContext _dbContext;
         private readonly IMapper _mapper;
 
-        public GetCurrentTransformersWithExpiredVerificationDateHandler(ApplicationDbContext dbContext, IMapper mapper)
+        public GetVoltageTransformersWithExpiredVerificationDateHandler(ApplicationDbContext dbContext, IMapper mapper)
             => (_dbContext, _mapper) = (dbContext, mapper);
 
         public async Task<IReadOnlyList<GetVoltageTransformersWithExpiredVerificationDateResponse>> Handle(GetVoltageTransformersWithExpiredVerificationDateQuery request, CancellationToken cancellationToken)

@@ -1,10 +1,8 @@
-﻿using AutoMapper;
-using TransneftEnergy.Application.SettlementMeters.GetSettlementMeters;
-using TransneftEnergy.Domain.Entities;
+﻿using TransneftEnergy.Application.SettlementMeters.GetSettlementMeters;
 
 namespace TransneftEnergy.Application.SettlementMeters
 {
-    public sealed class SettlementMeterMappingProfile : Profile
+    internal sealed class SettlementMeterMappingProfile : Profile
     {
         public SettlementMeterMappingProfile() 
         {

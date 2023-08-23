@@ -11,7 +11,7 @@
         public async Task<IReadOnlyList<GetSettlementMetersResponse>> Handle(GetSettlementMetersQuery request, CancellationToken cancellationToken)
         {
             return await _dbContext.ElectricityMeasuringPointsSettlementMeters
-                .Where(empsm => empsm.StartTime >= request.StartTime && empsm.EndTime <= request.EndTime)
+                .Where(empsm => empsm.StartTime >= (request.StartTime ?? DateTime.MinValue) && empsm.EndTime <= (request.EndTime ?? DateTime.MaxValue))
                 .Select(empsm => empsm.SettlementMeter)
                 .ProjectTo<GetSettlementMetersResponse>(_mapper.ConfigurationProvider)
                 .ToListAsync(cancellationToken);

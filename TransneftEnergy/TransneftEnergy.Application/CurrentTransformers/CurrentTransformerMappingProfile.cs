@@ -6,7 +6,7 @@ namespace TransneftEnergy.Application.VoltageTransformers
     {
         public CurrentTransformerMappingProfile() 
         {
-            CreateMap<VoltageTransformer, GetCurrentTransformersWithExpiredVerificationDateResponse>();
+            CreateMap<CurrentTransformer, GetCurrentTransformersWithExpiredVerificationDateResponse>();
         }
     }
 }
