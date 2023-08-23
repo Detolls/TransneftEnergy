@@ -1,6 +1,4 @@
-﻿using MediatR;
-using Microsoft.AspNetCore.Mvc;
-using TransneftEnergy.Application.SettlementMeters.GetSettlementMeters;
+﻿using TransneftEnergy.Application.SettlementMeters.GetSettlementMeters;
 
 namespace TransneftEnergy.WebAPI.Controllers
 {
