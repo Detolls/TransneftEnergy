@@ -1,6 +1,4 @@
-﻿using MediatR;
-using Microsoft.AspNetCore.Mvc;
-using TransneftEnergy.Application.CurrentTransformers.GetCurrentTransformersWithExpiredVerificationDate;
+﻿using TransneftEnergy.Application.CurrentTransformers.GetCurrentTransformersWithExpiredVerificationDate;
 using TransneftEnergy.Application.ElectricityMeasuringPoints.CreateElectricityMeasuringPoint;
 using TransneftEnergy.Application.ElectricityMeters.GetElectricityMetersWithExpiredVerificationDate;
 using TransneftEnergy.Application.VoltageTransformers.GetVoltageTransformersWithExpiredVerificationDate;
