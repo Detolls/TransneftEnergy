@@ -1,0 +1,4 @@
+﻿namespace TransneftEnergy.Application.ElectricityMeters.GetElectricityMetersWithExpiredVerificationDate
+{
+    public sealed record GetElectricityMetersWithExpiredVerificationDateQuery(int ConsumptionObjectId) : IRequest<IReadOnlyList<GetElectricityMetersWithExpiredVerificationDateResponse>>;
+}

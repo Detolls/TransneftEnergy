@@ -5,6 +5,12 @@ VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransneftEnergy.WebAPI", "TransneftEnergy.WebAPI\TransneftEnergy.WebAPI.csproj", "{986DDBFF-AD1F-484D-9A33-99E524CF50E0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransneftEnergy.Domain", "TransneftEnergy.Domain\TransneftEnergy.Domain.csproj", "{858CD992-7422-4BBB-8202-BF991BE834B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransneftEnergy.Infrastructure", "TransneftEnergy.Infrastructure\TransneftEnergy.Infrastructure.csproj", "{E381C012-A992-46F6-BD75-D347774873CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransneftEnergy.Application", "TransneftEnergy.Application\TransneftEnergy.Application.csproj", "{ED8C0768-5B7F-460F-9442-2D2D468A3A18}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{986DDBFF-AD1F-484D-9A33-99E524CF50E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{986DDBFF-AD1F-484D-9A33-99E524CF50E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{986DDBFF-AD1F-484D-9A33-99E524CF50E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{858CD992-7422-4BBB-8202-BF991BE834B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{858CD992-7422-4BBB-8202-BF991BE834B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{858CD992-7422-4BBB-8202-BF991BE834B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{858CD992-7422-4BBB-8202-BF991BE834B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E381C012-A992-46F6-BD75-D347774873CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E381C012-A992-46F6-BD75-D347774873CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E381C012-A992-46F6-BD75-D347774873CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E381C012-A992-46F6-BD75-D347774873CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED8C0768-5B7F-460F-9442-2D2D468A3A18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED8C0768-5B7F-460F-9442-2D2D468A3A18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED8C0768-5B7F-460F-9442-2D2D468A3A18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED8C0768-5B7F-460F-9442-2D2D468A3A18}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
